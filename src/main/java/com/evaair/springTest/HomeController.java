@@ -52,14 +52,10 @@ public class HomeController {
 		return model;
 	}
 	
-<<<<<<< HEAD
-	
-	
-	
-=======
+
 	//==========================首頁=================================
 
->>>>>>> d48afa35066447292a4a2758fa08a7f10b840f77
+
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public ModelAndView home(){
 		ModelAndView model = new ModelAndView("home");
