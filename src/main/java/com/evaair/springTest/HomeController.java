@@ -53,7 +53,7 @@ public class HomeController {
 	}
 	
 
-	//==========================首頁=================================
+	//==========================首頁======== === =========================
 
 
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
