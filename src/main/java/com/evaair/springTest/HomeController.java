@@ -45,16 +45,21 @@ public class HomeController {
 		ModelAndView model = new ModelAndView("register");
 		return model;
 	}
-	//==========================登入成功頁面=================================
+	//==========================登入成功頁面==============================
 	@RequestMapping(value = "/success", method = RequestMethod.GET)
 	public ModelAndView success(){
 		ModelAndView model = new ModelAndView("success");
 		return model;
 	}
 	
+<<<<<<< HEAD
 	
 	
 	
+=======
+	//==========================首頁=================================
+
+>>>>>>> d48afa35066447292a4a2758fa08a7f10b840f77
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public ModelAndView home(){
 		ModelAndView model = new ModelAndView("home");
