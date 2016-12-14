@@ -51,6 +51,10 @@ public class HomeController {
 		ModelAndView model = new ModelAndView("success");
 		return model;
 	}
+	
+	
+	
+	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public ModelAndView home(){
 		ModelAndView model = new ModelAndView("home");
