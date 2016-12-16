@@ -29,11 +29,14 @@
 	地址:<input type="text" name ="address"/><br>
 	密碼:<input type="password" name ="password"/>
 
+
+
 	<a href="/springTest/success"  role="button" ><button type="button" class="btn btn-danger">送出</button></a>
 	
 <%-- 	<label class="label label-warning">${message} ${account.username}</label> --%>
 </form>
 
 </body>
+
 
 </html> 
