@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
-
+<title>success</title>
 <html>
 <p>
                       <font size="6">建立成功～～～</font>

@@ -30,38 +30,12 @@
 </head>
 
 <body>
+<%@include file="sidebar.jspf"%>
 <%@include file="navbar.jspf"%>
 
     <div id="wrapper">
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
-                    </a>
-                </li>
-                <li>
-                    <a href="#">男裝</a>
-                </li>
-                <li>
-                    <a href="#">女裝</a>
-                </li>
-               <!--  <li>
-                    <a href="#">Clothing</a>
-                </li>
-                <li>
-                    <a href="#">Shoes</a>
-                </li>
-                
-               
-                <li>
-                    <a href="#">Contact</a>
-                </li> -->
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
+        
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
