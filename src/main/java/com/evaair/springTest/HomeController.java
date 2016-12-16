@@ -58,6 +58,16 @@ public class HomeController {
 //		model.addObject(list);
 		return model;
 	}
+	//==========================顧客頁面=================================
+
+	@RequestMapping(value = "/cusProduct", method = RequestMethod.GET)
+	public ModelAndView ProductList() {
+		ModelAndView model = new ModelAndView("cusProduct");
+//		ProductDAO dao = (ProductDAO) context.getBean("productDAO");
+//		List<Product> list = dao.getList();
+//		model.addObject(list);
+		return model;
+	}// getcustomerProduct
 	//==========================註冊=================================
 	
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
