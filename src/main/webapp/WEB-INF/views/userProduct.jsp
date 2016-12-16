@@ -5,15 +5,45 @@
 <head>
  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-    <!-- Bootstrap core CSS -->
-    <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
+
     
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>產品管理</title>
+   <!-- Bootstrap Core CSS -->
+   <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+    <!-- Custom CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css.css" rel="stylesheet">
+     <link href="<c:url value="/resources/css/simple-sidebar.css" />" rel="stylesheet">
+	<link href="<c:url value="/resources/css/bootstrap.min.css/" />" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
 </head>
 <body>
+<%@include file="user-sidebar.jspf"%>
 <%@include file="navbar.jspf" %>
-    <div class="container theme-showcase" role="main">
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+		 
+		</div>
+		<div class="col-md-6">
+	
+		</div>
+	</div>
+	<!-- 固定欄位寬度為300px -->
+	<div class="col-fixed">
+		固定寬度300px
+	</div>
+    <!-- 固定欄位寬度為300px end-->
+</div>
+
+    <div class="container theme-showcase" role="main" style="margin-left: 235px">
     
       <div class="jumbotron" >    
         <h1>產品上架管理</h1>

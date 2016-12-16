@@ -12,23 +12,17 @@
                         Start Bootstrap
                     </a>
                 </li>
-                <li>
-                    <a href="#">男裝</a>
-                  
+                                <li>
+                    <a href="#">訂單管理</a>
+                   <!--  裡面有銷貨跟出貨跟客戶分級 -->
                 </li>
                 <li>
-                    <a href="#">女裝</a>
-                    
-               <!--  </li>
-               
-                <li>
-                    <a href="#">Shoes</a>
+                    <a href="#">倉庫</a>
+                    <!--  裡面加請購 -->
                 </li>
-                
-               
-                <li>
-                    <a href="#">Contact</a>
-                </li> -->
+                 <li>
+                    <a href="#">對帳</a>
+                </li>
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
