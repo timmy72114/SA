@@ -18,13 +18,10 @@
 	電話:<input type="text" name ="phone"/><br>
 	地址:<input type="text" name ="address"/><br>
 	密碼:<input type="password" name ="password"/>
-
-	<button type="submit" class="btn btn-danger">送出</button>
+   <a href="/springTest/success"  role="button" >送出</a>
+	
 	<label class="label label-warning">${message} ${account.username}</label>
 </form>
 
 </body>
-<li>
-          <a href="/springTest/success"  role="button" >送出</a>
-          </li>
 </html> 
