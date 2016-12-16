@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
 <title>產品管理</title>
@@ -26,7 +27,7 @@
 <%@include file="sidebar.jspf"%>
 <%@include file="cus-navbar.jspf"%>
 
-	<div class="container theme-showcase" role="main">
+	<div class="container theme-showcase" role="main" style="margin-left:250px">
 
 		<div class="jumbotron">
 			<h1>產品管理系統</h1>

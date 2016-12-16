@@ -24,12 +24,17 @@
       </form>
      
         <ul class="nav navbar-nav navbar-right">
-        <li class="登入">
-          <a href="＃"  role="button" >購物車</a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> 購物車</a></li>
+            <li><a href="home"><span class="glyphicon glyphicon-log-out"></span> 登出</a></li>
+          </ul>
         </li>
-        
+       
       </ul>
      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
