@@ -27,7 +27,7 @@ import entity.Product;
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-//	ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+	//ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
 	
 	/**
@@ -58,6 +58,52 @@ public class HomeController {
 //		model.addObject(list);
 		return model;
 	}
+
+	//==========================產品管理頁面=================================
+	@RequestMapping(value = "/manageProduct", method = RequestMethod.GET)
+	public ModelAndView manageProduct() {
+		ModelAndView model = new ModelAndView("manageProduct");
+//		ProductDAO dao = (ProductDAO) context.getBean("productDAO");
+//		List<Product> list = dao.getList();
+//		model.addObject(list);
+		return model;
+	}	
+	//==========================訂單管理頁面=================================
+	@RequestMapping(value = "/manageOrder", method = RequestMethod.GET)
+	public ModelAndView manageOrder() {
+		ModelAndView model = new ModelAndView("manageOrder");
+//		ProductDAO dao = (ProductDAO) context.getBean("productDAO");
+//		List<Product> list = dao.getList();
+//		model.addObject(list);
+		return model;
+	}
+	//==========================新增商品頁面=================================
+		@RequestMapping(value = "/insertProduct", method = RequestMethod.GET)
+		public ModelAndView insertProduct() {
+			ModelAndView model = new ModelAndView("insertProduct");
+//			ProductDAO dao = (ProductDAO) context.getBean("productDAO");
+//			List<Product> list = dao.getList();
+//			model.addObject(list);
+			return model;
+		}
+		//==========================倉儲頁面=================================
+		@RequestMapping(value = "/storage", method = RequestMethod.GET)
+		public ModelAndView storage() {
+			ModelAndView model = new ModelAndView("storage");
+//			ProductDAO dao = (ProductDAO) context.getBean("productDAO");
+//			List<Product> list = dao.getList();
+//			model.addObject(list);
+			return model;
+		}
+		//==========================對帳頁面=================================
+		@RequestMapping(value = "/manageRecord", method = RequestMethod.GET)
+		public ModelAndView manageRecord() {
+			ModelAndView model = new ModelAndView("manageRecord");
+//			ProductDAO dao = (ProductDAO) context.getBean("productDAO");
+//			List<Product> list = dao.getList();
+//			model.addObject(list);
+			return model;
+		}
 	//==========================顧客頁面=================================
 
 	@RequestMapping(value = "/cusProduct", method = RequestMethod.GET)
@@ -89,6 +135,9 @@ public class HomeController {
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public ModelAndView home(){
 		ModelAndView model = new ModelAndView("home");
+		//ProductDAO dao = (ProductDAO) context.getBean("productDAO");
+		//List<Product> list = dao.getList();
+		//model.addObject(list);
 		return model;
 		}
 	//==========================男裝=================================

@@ -30,7 +30,7 @@
 	<div class="container theme-showcase" role="main" style="margin-left:250px">
 
 		<div class="jumbotron">
-			<h1>產品管理系統</h1>
+			<h1><font size="6">顧客頁面</font></h1>
 		</div>
 		<div class="form-group">
 			分類:<select class="form-control" name="category"

@@ -8,7 +8,7 @@
 
     
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>管理者頁面</title>
+  <title>倉庫</title>
    <!-- Bootstrap Core CSS -->
    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
@@ -41,9 +41,8 @@
 
     <div class="container theme-showcase" role="main" style="margin-left: 235px">
     
-      <div class="jumbotron" >   
-    <!--   <span style="font-size:2em;">2em</span>  -->
-     <h1> 管理者頁面 </h1>
+      <div class="jumbotron" >    
+        <h1>倉儲管理頁面</h1>
       </div>
 	<div class="container">
 	

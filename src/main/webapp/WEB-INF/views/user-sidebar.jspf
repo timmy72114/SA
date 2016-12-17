@@ -11,17 +11,22 @@
                     <a href="#">
                         Start Bootstrap
                     </a>
+                    </li>
+                <li>
+                    <a href="manageProduct">產品管理</a>
+                   <!--  新增修改刪除 -->
+                </li>
                 </li>
                                 <li>
-                    <a href="#">訂單管理</a>
+                    <a href="manageOrder">訂單管理</a>
                    <!--  裡面有銷貨跟出貨跟客戶分級 -->
                 </li>
                 <li>
-                    <a href="#">倉庫</a>
+                    <a href="storage">倉庫</a>
                     <!--  裡面加請購 -->
                 </li>
                  <li>
-                    <a href="#">對帳</a>
+                    <a href="manageRecord">對帳</a>
                 </li>
             </ul>
         </div>
